@@ -47,4 +47,4 @@ if city_name:
         fig = px.line(df_24h, x="Time", y="Temperature (°C)", title=f"Temperature in {name} (Next 24 Hours)")
         st.plotly_chart(fig, use_container_width=True)
     else:
-        st.error("City not found. Please check the spelling.").
+        st.error("City not found. Please check the spelling.")
